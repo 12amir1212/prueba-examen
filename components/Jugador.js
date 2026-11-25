@@ -5,11 +5,11 @@ const Jugador = (props) => {
   return (
     <View style={styles.video}>
       <Text style={styles.nom}>
-        {props.jocs.nom}
+        Nombre: {props.jocs.nom}
         </Text>
-        <Text>{props.jocs.edat}</Text>
-        <Text>{props.jocs.posicio}</Text>
-       <Text>{props.jocs.numero}</Text> 
+        <Text>Edad: {props.jocs.edat}</Text>
+        <Text>Posicion: {props.jocs.posicio}</Text>
+       <Text>Numero Dorsal: {props.jocs.numero}</Text> 
       {props.jocs.capita ? (
         <Image
           source={require('../assets/capitan.png')}

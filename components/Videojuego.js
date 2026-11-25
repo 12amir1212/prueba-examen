@@ -5,9 +5,9 @@ const videojuego = (props) => {
       <Text style={styles.nom}>
         {props.jocs.nom}
         </Text>
-        <Text>{props.jocs.plataforma}</Text>
-        <Text>{props.jocs.data}</Text>
-       <Text>{props.jocs.preu}</Text> 
+        <Text>Plataforma: {props.jocs.plataforma}</Text>
+        <Text>Data: {props.jocs.data}</Text>
+       <Text>Preu: {props.jocs.preu}</Text> 
       {props.jocs.recomanat ? (
         <Image
           source={require('../assets/estrella.png')}

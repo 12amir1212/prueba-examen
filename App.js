@@ -1,46 +1,71 @@
-import { ScrollView, StyleSheet, View } from 'react-native';
-import Jugador from './components/Jugador';
-import dades from './utils/dadesJugador.json';
-export default function App() {
-    
+import { View, Text, StyleSheet } from "react-native";
+import { useState } from "react";
+const App = () => {
+  const [online, setOnline] = useState(false);
+  const [premium, setPremium] = useState(false);
+  const onlines = () => {
+    setOnline(!online);
+  };
+  const premiums = () => {
+    setPremium(!premium);
+  };
   return (
-    <ScrollView style={styles.container}>
-
-
-
-      {dades.llistatJugadors.map((jocs,index) => 
-      <View key={jocs.nom} style={index % 2 === 0 ? styles.ej11 : styles.ej12}>
-        <Jugador
-          jocs={jocs}
-        />
-      </View>)}
-
-
-
-
-    </ScrollView>
+    <View style={styles.tarjeta}>
+      <Text style={styles.nom}>Hola soy Amir</Text>
+      <Text style={styles.sub}>Mi profesion es hacker</Text>
+      <Text style={{ fontSize: 10, color: '#888888', fontStyle: 'italic' }}>
+        Membre des de: Novembre 2026
+      </Text>
+      <Text style={[styles.insignia, online ? styles.verde : styles.rojo]}>
+        {online ? 'Connectat' : 'Desconnectat'}
+      </Text>
+      <Text style={[styles.textBase, styles.textDestacat]}>
+        {premium ? 'premium' : 'No premium'}
+      </Text>
+    </View>
   );
-}
+};
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor:'black',
-    flex: 1,
-    padding: 20,
+
+  tarjeta: {
+    width: '90%',
+    maxWidth: 360,
+    padding: 40,
+    borderRadius: 16,
+    elevation: 5,
+    backgroundColor: 'white',
+
   },
-      ej11: {
-    backgroundColor: '#f10050',
-    fontSize: 10,
-    fontWeight: '600',
-    paddingLeft: 12,
-    textAlign: 'left',
-    color: 'grey',
+
+  nom: {
+    fontWeight: 'bold',
   },
-      ej12: {
-    backgroundColor: '#4e192c',
-    fontSize: 10,
-    fontWeight: '600',
-    paddingLeft: 12,
-    textAlign: 'left',
-    color: 'grey',
+
+  sub: {
+    marginTop: 20,
+  },
+
+
+  insignia: {
+    padding: 10,
+    marginTop: 10,
+  },
+
+  verde: {
+    backgroundColor: '#e8f5e9',
+  },
+
+  rojo: {
+    backgroundColor: '#ffebee',
+  },
+
+  textBase: {
+    color: '#888888',
+  },
+
+  textDestacat: {
+    color: 'red',
   },
 });
+
+export default App;
