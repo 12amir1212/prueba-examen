@@ -1,0 +1,45 @@
+
+{
+  "llistatJocs": [
+    {
+      "nom": "GTA V",
+      "plataforma": "PC",
+      "data": "17/09/2013",
+      "preu": 19.99,
+      "recomanat": true,
+      "disponible": true
+    },
+    {
+      "nom": "Minecraft",
+      "plataforma": "PC",
+      "data": "18/11/2011",
+      "preu": 29.99,
+      "recomanat": true,
+      "disponible": true
+    },
+    {
+      "nom": "FIFA 25",
+      "plataforma": "PS5",
+      "data": "27/09/2024",
+      "preu": 69.99,
+      "recomanat": false,
+      "disponible": false
+    },
+    {
+      "nom": "Red Dead Redemption 2",
+      "plataforma": "PC",
+      "data": "05/11/2019",
+      "preu": 39.99,
+      "recomanat": true,
+      "disponible": true
+    },
+    {
+      "nom": "Call of Duty",
+      "plataforma": "PS5",
+      "data": "25/10/2024",
+      "preu": 79.99,
+      "recomanat": false,
+      "disponible": false
+    }
+  ]
+}

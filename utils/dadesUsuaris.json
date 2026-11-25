@@ -1,0 +1,44 @@
+{
+  "llistatUsuaris": [
+    {
+      "nomUsuari": "Anna García",
+      "rolUsuari": "Desenvolupadora",
+      "dataRegistre": "15/03/2024",
+      "esOnline": true,
+      "esPremium": true,
+      "esMascle": false
+    },
+    {
+      "nomUsuari": "Joan Martínez",
+      "rolUsuari": "Dissenyador UX/UI",
+      "dataRegistre": "20/06/2023",
+      "esOnline": false,
+      "esPremium": false,
+      "esMascle": true
+    },
+    {
+      "nomUsuari": "Maria López",
+      "rolUsuari": "Administradora",
+      "dataRegistre": "10/01/2022",
+      "esOnline": true,
+      "esPremium": false,
+      "esMascle": false
+    },
+    {
+      "nomUsuari": "Pau Ferrer",
+      "rolUsuari": "Estudiant",
+      "dataRegistre": "05/09/2024",
+      "esOnline": true,
+      "esPremium": true,
+      "esMascle": true
+    },
+    {
+      "nomUsuari": "Laura Pérez",
+      "rolUsuari": "Analista de dades",
+      "dataRegistre": "12/11/2023",
+      "esOnline": false,
+      "esPremium": true,
+      "esMascle": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+
+{
+  "llistatJugadors": [
+    {
+      "nom": "Carlos",
+      "edat": 21,
+      "posicio": "Davanter",
+      "numero": 9,
+      "online": true,
+      "capita": true
+    },
+    {
+      "nom": "Jorge",
+      "edat": 19,
+      "posicio": "Porter",
+      "numero": 1,
+      "online": false,
+      "capita": false
+    },
+    {
+      "nom": "David",
+      "edat": 22,
+      "posicio": "Defensa",
+      "numero": 4,
+      "online": true,
+      "capita": false
+    },
+    {
+      "nom": "Pablo",
+      "edat": 20,
+      "posicio": "Centrocampista",
+      "numero": 8,
+      "online": false,
+      "capita": false
+    },
+    {
+      "nom": "Alex",
+      "edat": 23,
+      "posicio": "Davanter",
+      "numero": 11,
+      "online": true,
+      "capita": true
+    },
+    {
+      "nom": "Mario",
+      "edat": 18,
+      "posicio": "Defensa",
+      "numero": 3,
+      "online": true,
+      "capita": false
+    }
+  ]
+}
